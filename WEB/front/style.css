@@ -1,0 +1,75 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+	background: url('samuel-zeller-medium-b832fe04.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 60px;
+	color: #ffffff;
+  background-image: linear-gradient( 135deg, #00000069 10%, #0303036b 100%);
+	
+}
+
+h1 {
+	font-family: 'Monaco Script', monospace;
+	font-size: 150px;
+	margin-bottom: 20px;
+}
+
+h3, p {
+	font-family: 'Monaco Script', monospace;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #000000;
+	background: #ffffff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+	width: 125px;
+	font-weight: bold
+}
+button:hover{
+	cursor: pointer;
+}
+
+*{
+	text-decoration: none;
+}
+.navbar{
+	background: rgb(0, 0, 0); font-family: calibri; padding-right: 15px;padding-left: 15px; height: 100px;
+}
+.navdiv{
+	display: flex; align-items: center; justify-content: space-between;
+}
+.logo {
+	max-width: 5%;
+	max-height: 5%;
+}
+li{
+	list-style: none; display: inline-block;
+}
+li a{
+	color: rgb(255, 255, 255); font-size: 25px; font-weight: bold; margin-right: 45px; height: auto;
+}
+button{
+	background-color: rgb(255, 255, 255); margin-left: 25px; border-radius: 50px; padding: 10px; width: 120px;
+}
+button a{
+	color: rgb(0, 0, 0); font-weight: bold; font-size: 15px;
+}
